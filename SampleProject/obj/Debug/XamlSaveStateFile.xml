@@ -1,0 +1,9 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <ReferenceAssembly PathName="c:\users\pooja\desktop\hc\project\module\bindingcommondmvvm\sampleproject\packages\jisoft.collections.1.1.0.1\lib\wpa81\incrementalloadingcollections.dll" HashGuid="2ab8af70-a280-76b3-0bca-4c14fa716187" />
+    <ReferenceAssembly PathName="c:\users\pooja\desktop\hc\project\module\bindingcommondmvvm\sampleproject\packages\jisoft.flipview.1.2.0.0\lib\wpa81\jflipview.dll" HashGuid="78b18406-cc98-4d4f-88d9-57cd35c51e41" />
+    <ReferenceAssembly PathName="c:\users\pooja\desktop\hc\project\module\bindingcommondmvvm\sampleproject\packages\jisoft.flipviewindicator.1.0.0.3\lib\portable-wpa81+win81\jflipviewindicator.dll" HashGuid="1d37c3d3-4152-1620-4b2b-8e6c86c0d196" />
+    <ReferenceAssembly PathName="c:\users\pooja\desktop\hc\project\module\bindingcommondmvvm\sampleproject\packages\winrtxamltoolkit.controls.datavisualization.windowsphone.1.8.1.0\lib\wpa\winrtxamltoolkit.controls.datavisualization.dll" HashGuid="9b581ce9-a3d5-c68e-4833-5c7b7f7772c7" />
+    <ReferenceAssembly PathName="c:\users\pooja\desktop\hc\project\module\bindingcommondmvvm\sampleproject\packages\winrtxamltoolkit.windowsphone.1.8.1.0\lib\wpa\winrtxamltoolkit.dll" HashGuid="221e17c6-64f2-d53e-b7b5-145a2dbe921c" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="SampleProject.BlankPage2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SampleProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <FlipView Visibility="Collapsed" SelectedIndex="1">
+            <Image Width="200" Height="200" Source="http://27.251.238.244/CCDMService2/hdpi/CafeMenu/Beverages/Hot_Coffee/espresso.png" Stretch="UniformToFill"/>
+            <Image Width="200" Height="200" Source="http://27.251.238.244/CCDMService2/hdpi/CafeMenu/Beverages/Hot_Coffee/FlavouredCappuccino1.png" Stretch="UniformToFill"/>
+        </FlipView>
+        <ItemsControl Visibility="Visible" Name="myList" ScrollViewer.HorizontalScrollMode="Disabled"
+                  ScrollViewer.ZoomMode="Disabled">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        
+                        <FlipView SelectedIndex="0"
+                                  ManipulationMode="All">
+                            <Image Width="200" Height="200" Source="http://27.251.238.244/CCDMService2/hdpi/CafeMenu/Beverages/Hot_Coffee/espresso.png" Stretch="UniformToFill"/>
+                            <Image Width="200" Height="200" Source="http://27.251.238.244/CCDMService2/hdpi/CafeMenu/Beverages/Hot_Coffee/FlavouredCappuccino1.png" Stretch="UniformToFill"/>
+                        </FlipView>
+                        
+                        <TextBlock Text="{Binding}" Grid.Column="1"
+                                   FontSize="22" Foreground="White"/>
+                        
+                        
+                    </Grid>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </Grid>
+</Page>
